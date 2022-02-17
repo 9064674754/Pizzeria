@@ -16,7 +16,7 @@ var htmldata;
 menu_list_array.sort();
 htmldata="<section class='cards'>";
 for(var i=0;i<menu_list_array.length;i++){
-    htmldata=htmldata+'<div id="card">'+'<img src="pizzaimg.png" style="width: 100px; height:80px; margin-left:300px;"/>'+menu_list_array[i]+'</div>';
+    htmldata=htmldata+'<div id="card">'+'<img src="pizzaImg.png" style="width: 100px; height:80px; margin-left:300px;"/>'+menu_list_array[i]+'</div>';
 }
 
 htmldata=htmldata+"</section>"
